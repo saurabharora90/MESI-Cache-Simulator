@@ -36,14 +36,5 @@ namespace MESI
         public const int addressLenght = 32;  //32 bit memory address
         public const int memoryToCache_cycles = 10;
         public const string filePath = @"C:\Users\Saurabh\Documents\Lab\Yr4 Sem1\CS4223\Assignment 3\Weather8\";
-        //public const string filePath = @"C:\Users\Saurabh\Documents\Lab\Yr4 Sem1\CS4223\Assignment 3\Test Protocol Sample\";
-        //public const string Processor1File = "1.PRG";
-        //public const string Processor2File = "2.PRG";
-        //public const string Processor3File = "3.PRG";
-        //public const string Processor4File = "4.PRG";
-        //public const string Processor5File = "5.PRG";
-        //public const string Processor6File = "6.PRG";
-        //public const string Processor7File = "7.PRG";
-        //public const string Processor8File = "8.PRG";
     }
 }

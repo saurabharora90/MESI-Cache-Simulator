@@ -51,8 +51,6 @@ namespace MESI
             }
             #endregion
 
-            //splitAddress("00B248AC");
-
             while (true) //This loop will keep on running till the break statment is encountered.
             {//Entry here is at a new cycle.
                 foreach (var processor in processors)
@@ -114,7 +112,6 @@ namespace MESI
         private void runOnTrace(int processorId, string line)
         {
             Label label;
-            //string address;
             CacheAccessResult result = CacheAccessResult.ReadHit; //This will change later. Simply assigned to avoid compilation error.
 
             label = corresondingLabel(line[0]);
